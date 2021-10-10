@@ -1,0 +1,6 @@
+declare module 'vtex.address-form/helpers'
+declare module 'vtex.address-form/inputs'
+declare module 'vtex.address-form'
+declare module 'vtex.order-shipping/OrderShipping'
+declare module 'vtex.order-manager/OrderForm'
+declare module 'vtex.styleguide'
