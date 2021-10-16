@@ -8,6 +8,8 @@
 
 The Shipping Simulator app is responsible for providing the modal functionality for calculate the cost of the shipping for the selected location
 
+![Simulation.gif](docs/Simulator.gif)
+
 ## Configuration
 
 1. Add the `shipping-calculator` app as a dependency in you theme's `manifest.json` file:
@@ -43,7 +45,6 @@ const MyComponent: FC = () => {
 }
 
 export default MyComponent
-
 ```
 
 Or use the implementation with the interface `shipping-calculator`
