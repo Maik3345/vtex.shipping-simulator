@@ -1,0 +1,5 @@
+{
+  "shipping-calculator": {
+    "children": ["shipping-calculator-view"]
+  }
+}

@@ -1,5 +1,9 @@
 {
-  "shipping-simulator": {
+  "shipping-calculator-view": {
     "component": "ShippingSimulator"
+  },
+  "shipping-calculator": {
+    "component": "ShippingSimulatorContextProvider",
+    "composition": "children"
   }
 }

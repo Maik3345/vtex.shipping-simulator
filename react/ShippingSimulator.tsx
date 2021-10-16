@@ -1,1 +1,1 @@
-export { default } from './src/ShippingSimulator/Wrapper'
+export { default } from './src/ShippingSimulator'

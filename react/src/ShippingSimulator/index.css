@@ -1,0 +1,193 @@
+.shippingContainer {
+}
+.shippingContainerLoader {
+}
+.shippingCTA {
+}
+.shippingInputLoader {
+}
+.shippingNoMessage {
+}
+.shippingTable {
+}
+.shippingTableBody {
+}
+.shippingTableCell {
+}
+.shippingTableCellDeliveryEstimate {
+}
+.shippingTableCellDeliveryName {
+}
+.shippingTableCellDeliveryPrice {
+}
+.shippingTableHead .shippingTableHead {
+  /* Use the following CSS rule to display correctly */
+  /* display: table-header-group */
+}
+.shippingTableHeadDeliveryEstimate {
+}
+.shippingTableHeadDeliveryName {
+}
+.shippingTableHeadDeliveryPrice {
+}
+.shippingTableLabel {
+}
+.shippingTableRadioBtn {
+}
+.shippingTableRow {
+}
+.shippingZipcodeLabel {
+}
+.shippingZipcodeLabelLoader {
+}
+
+/* Custom styles */
+
+.simulationHandlerContainer {
+}
+
+.simulationButton {
+  outline: none;
+  border: none;
+  background: transparent;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  cursor: pointer;
+  margin: 10px 0;
+}
+.simulationButtonIcon {
+  margin-right: 10px;
+}
+.simulationButtonLabel {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 15px;
+  color: #114d97;
+}
+
+.simulationModalText {
+  position: relative;
+  color: #114d97;
+  text-align: left;
+}
+.simulationModalSubText {
+  font-weight: bold;
+}
+.simulationModalIconClose {
+  position: absolute;
+  right: -20px;
+  top: 0px;
+}
+
+.simulationModalIconClose {
+  cursor: pointer;
+}
+
+.modalSimulationContainer {
+  max-width: 100%;
+}
+
+.modalContainer {
+}
+
+.modalContainer :global(.vtex-modal__modal) {
+  max-width: 530px;
+}
+
+.shippingCTA :global(.vtex-button) {
+  width: 130px;
+  height: 37px;
+  margin: 0 auto;
+  border-radius: 4px;
+  display: block;
+  border: none;
+}
+
+.shippingCTA :global(.vtex-button):global(.bg-disabled) {
+  background: #cecece;
+  color: #fafafa;
+}
+
+.shippingContainer :global(.vtex-dropdown__label) {
+  display: none;
+}
+
+.shippingContainer :global(.vtex-address-form__field--large) {
+  padding-bottom: 20px;
+}
+
+.shippingContainer :global(.vtex-dropdown__arrow) svg {
+  width: 30px;
+  height: 30px;
+  fill: #114d97;
+}
+
+.shippingCostView {
+  position: relative;
+  max-width: 359px;
+  margin: 0 auto;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 90px;
+}
+.addressInformation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0.5px solid #cecece;
+  box-sizing: border-box;
+  border-radius: 4px;
+  height: 56px;
+}
+.addressInformationIcon {
+}
+.addressInformationText {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+  color: #114d97;
+  margin: 0 20px;
+}
+.addressInformationTextValue {
+}
+.addressInformationEdit {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+  text-decoration-line: underline;
+  color: #00bfc2;
+  cursor: pointer;
+}
+.addressInformationEditAction {
+}
+.costShipping {
+  width: 100%;
+  height: 91px;
+  bottom: 0px;
+  position: absolute;
+  background: #114d97;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.costShippingTitle {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+  text-align: center;
+  color: #fafafa;
+}
+.costShippingValue {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 22px;
+  text-align: center;
+  color: #fafafa;
+  margin-top: 10px;
+}

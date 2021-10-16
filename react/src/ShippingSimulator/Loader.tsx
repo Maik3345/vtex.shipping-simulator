@@ -1,7 +1,6 @@
 import React from 'react'
 import ContentLoader from 'react-content-loader'
-
-import styles from './shippingSimulator.css'
+import styles from './index.css'
 
 const ShippingSimulatorLoader = (loaderProps: any = {}) => (
   <div className={styles.shippingContainer}>
